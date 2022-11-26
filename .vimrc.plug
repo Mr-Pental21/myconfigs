@@ -1,0 +1,22 @@
+call plug#begin('~/.vim/plugged')
+
+" Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive'
+Plug 'preservim/nerdtree'
+" Plug 'ryanoasis/vim-devicons'
+Plug 'raimondi/delimitmate'
+Plug 'vim-airline/vim-airline'
+Plug 'jeetsukumaran/vim-buffergator'
+
+if has('nvim')
+  Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/denite.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+
+Plug 't9md/vim-choosewin'
+Plug 'weilbith/nerdtree_choosewin-plugin'
+
+call plug#end()

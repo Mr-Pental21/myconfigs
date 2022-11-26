@@ -1,0 +1,2 @@
+3.0
+{'neobundle.vim': {'checked_time': 1666207269, 'installed_uri': 'https://github.com/Shougo/neobundle.vim.git', 'installed_path': '/home/glotis/.vim/bundle/neobundle.vim', 'revisions': {}, 'updated_time': 1666207269}, 'vim-nerdtree-syntax-highlight': {'checked_time': 1666207271, 'installed_uri': 'https://github.com/tiagofumo/vim-nerdtree-syntax-highlight.git', 'installed_path': '/home/glotis/.vim/bundle/vim-nerdtree-syntax-highlight', 'revisions': {'1610385138': '5178ee4d7f4e7761187df30bb709f703d91df18a'}, 'updated_time': '1610385138'}}
